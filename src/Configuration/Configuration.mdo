@@ -32,4 +32,6 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.14</compatibilityMode>
+  <documents>Document.Расш1_Документ</documents>
+  <informationRegisters>InformationRegister.Расш1_РегистрСведений</informationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68251c5b-8d24-4c20-94d2-372adeab9ed7">
+  <producedTypes>
+    <selectionType typeId="d67f5922-0176-44e9-8c85-49dff9a9aa1c" valueTypeId="3668350b-3a0f-4c08-b67b-5342b766e197"/>
+    <listType typeId="79fd7eef-f672-498a-a44d-56b85db9f6f1" valueTypeId="05783728-4898-4058-bc7b-fe3d695922f7"/>
+    <managerType typeId="df9f2d2b-c5e2-495e-b634-ff126f7c83b5" valueTypeId="e1b61186-b313-46ed-b561-dd6bd4b9a6ef"/>
+    <recordSetType typeId="8e59c287-94a9-419e-b954-d477f7e0e199" valueTypeId="fdeaf86e-06e9-41c6-9763-2e46c121d1ed"/>
+    <recordKeyType typeId="75019cc1-c4de-4cc1-b748-978969e1fa1a" valueTypeId="114288ec-b8ac-4872-9c80-569a03f83d54"/>
+    <recordType typeId="2568ce07-fb54-4460-9ff4-710b635cb02a" valueTypeId="6ea60cd9-3266-4310-aa1a-e7abac267c6e"/>
+    <recordManagerType typeId="3b5977e5-72fa-4bf1-a46f-0f5f9049d849" valueTypeId="4b859a89-6dae-4d9e-beb5-c126bb8e4c62"/>
+  </producedTypes>
+  <name>Расш1_РегистрСведений</name>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="834f7164-0854-45f7-87d2-702b36c8261d">
+    <name>Ресурс</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="7a397a62-e694-4dcb-a953-e27631255814">
+    <name>Измерение</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a06b3bae-bd0c-437b-a777-b3a9801445c2">
+    <name>Измерение1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

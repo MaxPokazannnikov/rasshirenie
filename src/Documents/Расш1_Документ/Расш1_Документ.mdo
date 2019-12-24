@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ccf947f-4f4b-4677-83a5-47ac8c8625a7">
+  <producedTypes>
+    <objectType typeId="d1d79e5c-9f0f-42d4-a864-0ecccfb521ac" valueTypeId="94d7605b-8084-436a-9fd8-62980cf650c1"/>
+    <refType typeId="b4cdf787-9d31-4384-8910-200bbb4f7593" valueTypeId="26a79ce0-115f-4406-92e5-2c1421c0bfce"/>
+    <selectionType typeId="ef35575f-87a7-404a-a109-c208aacab68f" valueTypeId="d276d006-e287-42b9-8b79-b63f1b2513db"/>
+    <listType typeId="75acf43e-6328-4929-b12f-0d902e625384" valueTypeId="e2b46b3f-a461-4630-8cb2-bc3fc9b1b0f9"/>
+    <managerType typeId="a3e3d4f8-5d76-4364-b307-38ea715ee956" valueTypeId="3dc05442-e92c-4867-aec1-f37c8225523d"/>
+  </producedTypes>
+  <name>Расш1_Документ</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Расш1_Документ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Расш1_Документ.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b6af0945-cc73-4e7a-9206-121bc3ff7635">
+    <name>Реквизит</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="706dc7b9-78de-4323-940c-d218c4df9ae9">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9bfa0cc3-3e17-4159-9384-a9637aaf467d">
+    <name>ФормаДокумента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d1ce5e2a-963c-4ec6-bf82-2cf7426b3677">
+    <producedTypes>
+      <objectType typeId="c8d59324-e475-4caf-adae-255b406e0ce5" valueTypeId="826ad6ed-dd19-49af-91db-7109a23af18c"/>
+      <rowType typeId="f3f3bda6-de4e-4127-94d0-1889e728dcd5" valueTypeId="5c36defe-d75f-4715-ae15-7a6007f46942"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+  </tabularSections>
+</mdclass:Document>
